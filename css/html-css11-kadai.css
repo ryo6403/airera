@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+  width: 400px;
+  height: 450px;
+}
+
+.red-box {
+  height: 100px;
+  background: #ff0000;
+}
+
+
+.purple-box {
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  border: #ffffff 5px solid;
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.green-box-left{
+  width: 150px;
+  height:250px;
+  background: #00ff51;
+  float: left;
+}
+
+.kusumi-box-right{
+  background: #8c2727;
+}
+
+.orange-box{
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  float: left;
+  border: #ffffff solid 5px;
+  margin: 5px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.yellow-box{
+  height: 100px;
+  background: #ffd000;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}

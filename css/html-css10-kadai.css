@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+  width: 400px;
+  height: 450px;
+}
+
+.red-box{
+  background-color: #ff0000;
+  height: 100px;
+}
+
+.yellow-box{
+  height: 100px;
+  background-color: #ffe600;
+}
+
+.green-box{
+  width: 150px;
+  height: 250px;
+  background-color: #00ff51;
+  float: left;
+}
+
+.purple-box{
+  height: 50px;
+  background-color: #cc00db;
+}
+
+.blue-box{
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.orange-box{
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+  float: right;
+}
+
+.kusumi-aka{
+  height: 100px;
+  background-color: #8c2727;
+}
+
+/* .clearfix:{
+  content:"";
+  display: block;
+  clear: both;
+} */
+
